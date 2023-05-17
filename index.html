@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedéx</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilo.css">
+<link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+
+        <button id = "botao-alterar-tema">
+            <img src ="./src/imagens/sun.png" alt="imagem sol"
+            class="imagem-botao">
+
+        </button>
+    </header>
+    <main>
+
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>bulbasaur</span>
+                    <span>#001</span>
+                </div>
+                <img src="./src/imagens/bulbasaur.gif" alt="bulbasaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Há uma semente de planta em suas costas desde o dia que este pokemón nasce. A semente cresce
+                    lentamente.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>ivysaur</span>
+                    <span>#002</span>
+                </div>
+                <img src="./src/imagens/ivysaur.gif" alt="ivysaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em suas patas traseiras.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>venusaur</span>
+                    <span>#003</span>
+                </div>
+                <img src="./src/imagens/venusaur.gif" alt="venosaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Sua planta floresce quando esta absorvendo energia solar. Ele permanece em movimento para buscar a luz solar.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>charmander</span>
+                    <span>#004</span>
+                </div>
+                <img src="./src/imagens/charmander.gif" alt="charmander" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                   Tem preferencia por coisa quentes. quando chove, diz-se que o vapor jorra da ponta de sua cauda.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>charmeleon</span>
+                    <span>#005</span>
+                </div>
+                <img src="./src/imagens/charmeleon.gif" alt="charmeleon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                   
+                </ul>
+
+                <p class="descricao">
+                   Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>charizard</span>
+                    <span>#006</span>
+                </div>
+                <img src="./src/imagens/charizard.gif" alt="charizard" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>squirtle</span>
+                    <span>#007</span>
+                </div>
+                <img src="./src/imagens/squirtle.gif" alt="squirtle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>wartortle</span>
+                    <span>#008</span>
+                </div>
+                <img src="./src/imagens/wartortle.gif" alt="wartortle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse wartortle é muito antigo.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>blastoise</span>
+                    <span>#009</span>
+                </div>
+                <img src="./src/imagens/blastoise.gif" alt="blastoise" class="gif" >
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>caterpie</span>
+                    <span>#010</span>
+                </div>
+                <img src="./src/imagens/caterpie.gif" alt="caterpie" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">
+                    Para porteção ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>gengar</span>
+                    <span>#011</span>
+                </div>
+                <img src="./src/imagens/gengar.gif" alt="gengar" class="gif">
+                <ul class="tipos">
+                    <li class="tipo sombrio">Sombrio</li>
+                </ul>
+
+                <p class="descricao">
+                    De vez em quando, em noites bem escuras, a sua sombra vai crescer, ficar disforme e te passar. Isso na verdade é Gengar passando por você, fingindo ser sua sombra.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>togepi</span>
+                    <span>#012</span>
+                </div>
+                <img src="./src/imagens/togepi.gif" alt="togepi" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fada">Fada</li>
+                </ul>
+
+                <p class="descricao">
+                    A concha parece estar cheia de alegria. Diz-se que compartilhará boa sorte quando for tratado com gentileza. Amor te amo <3
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pikachu</span>
+                    <span>#013</span>
+                </div>
+                <img src="./src/imagens/pikachu.gif" alt="pikachu" class="gif">
+                <ul class="tipos">
+                    <li class="tipo eletrico">Elétrico</li>
+                </ul>
+
+                <p class="descricao">
+                    Se você se deparar com um fruto torrado, é uma evidência de que esse Pokémon errou na intensidade de energia de sua descarga elétrica.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Mew</span>
+                    <span>#014</span>
+                </div>
+                <img src="./src/imagens/mew.gif" alt="Mew" class="gif">
+                <ul class="tipos">
+                    <li class="tipo psiquico">Mew</li>
+                </ul>
+
+                <p class="descricao">
+                    Como é capaz de aprender qualquer tipo de golpe, muitos cientistas acreditam que ele é o antepassado de todos os pokémons. Este pokémon não possui evolução.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Mewtwo</span>
+                    <span>#015</span>
+                </div>
+                <img src="./src/imagens/mewtwo.gif" alt="Mewtwo" class="gif">
+                <ul class="tipos">
+                    <li class="tipo psiquico">Mewtwo</li>
+                </ul>
+
+                <p class="descricao">
+                    Mewtwo é um Pokémon que foi criado por manipulação genéticado do Mew. No entanto, apesar de o poder científico dos seres humanos criado o corpo deste Pokémon, eles não conseguiram dotar Mewtwo com um coração compassivo.
+                </p>
+            </li>
+
+           
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Jigglypuff</span>
+                    <span>#016</span>
+                </div>
+                <img src="./src/imagens/jigglypuff.gif" alt="jigglypuff" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fada">Fada</li>
+                </ul>
+
+                <p class="descricao">
+                     Este Pokémon usa sua habilidade de cantar precisamente em determinadas frequências para deixar seus adversários tontos, as vezes até em sono profundo.
+                </p>
+            </li>
+
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Eevee</span>
+                    <span>#017</span>
+                </div>
+                <img src="./src/imagens/eevee.gif" alt="Eevee" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+
+                <p class="descricao">
+                    Eevee tem uma composição genética instável que, de repente se transforma devido ao ambiente em que vive. Radiação de várias pedras faz com que esse Pokémon evolua.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Vaporeon</span>
+                    <span>#018</span>
+                </div>
+                <img src="./src/imagens/vaporeon.gif" alt="vaporeon" class="gif" >
+                <ul class="tipos">
+                        
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Vaporeon sofreu uma mutação espontânea e cultivou barbatanas e brânquias que lhe permitem viver debaixo d'água. Este Pokémon tem capacidade de controlar livremente a água.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Flareon</span>
+                    <span>#019</span>
+                </div>
+                <img src="./src/imagens/flareon.gif" alt="Flareon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    O pelo macio do Flareon tem um objetivo funcional, liberar calor no ar para que seu corpo não fique excessivamente quente. Quando pega presas ou encontra berrys, sopra fogo nelas até que estejam bem cozidas e as engole.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Jolteon</span>
+                    <span>#020</span>
+                </div>
+                <img src="./src/imagens/jolteon.gif" alt="Jolteon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo eletrico">Elétrico</li>
+                </ul>
+
+                <p class="descricao">
+                    O pelo eriçado é feito de agulhas carregdas com eltricidade. Um Pokémon sensível que facilmente fica triste ou com raiva. Toda vez que seu humor muda, ele cobra energia.
+                </p>
+            </li>
+        
+
+                
+           
+        </ul>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
